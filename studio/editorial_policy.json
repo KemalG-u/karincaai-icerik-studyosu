@@ -1,0 +1,21 @@
+{
+  "version": 2,
+  "content_standard_id": "karincaai-content-v1",
+  "content_standard_file": "content_standard.v1.json",
+  "discovery_source": "user_provided_project_sources",
+  "independent_radar_enabled": false,
+  "own_experiment_required": false,
+  "topic_universe": ["teknik konular", "Hermes", "ajanlar", "iş akışları", "taktikler", "modeller", "araçlar", "yazılım ve otomasyon", "araştırma yöntemleri", "yaratıcı yapay zekâ üretimi"],
+  "scope_rule": "AI ekosistemini geniş düşün. Teknik veya iş akışı içeriğinde AI ya da Hermes kelimesi yok diye reddetme. Bağlantısı belirsizse incelemeye bırak; ilgisini uydurma.",
+  "source_meaning": "Kemal'in bir kaynağı projeye eklemesi çalışma isteğidir; doğruluk, deney, telif, içerik onayı veya yayın emri değildir.",
+  "editorial_rules": [
+    "Haber ve açıklama için kişisel kurulum zorunlu değildir; yalnız gerçek deney varsa denedim de.",
+    "Kaynak iddiası, doğrulanmış bilgi ve editör yorumu birbirine karışmasın.",
+    "Kaynağı aynen çevirme; Türkçe okura somut fayda, örnek veya karar bağlamı ekle.",
+    "Tek kişi doğal konuşsun; sabit açılış, zorunlu üçlü liste veya formül kullanma.",
+    "Teknik terimi anlam için gerektiği kadar açıkla; kaynak ve test raporunu ana metne yığma.",
+    "İçeriğe uygun ana yüzey ve kısa yönlendirme seç; bağımsız talepleri üst üste yığma.",
+    "Denenmemiş sonucu, süreyi, maliyeti veya büyümeyi uydurma. Kaynak medyasını kendi üretimimiz gibi sunma."
+  ],
+  "future_radar": "Daha sonra Kemal'in gerçek kaydetme/paylaşma ve kabul-ret deseninden esinlenilerek ayrı değerlendirilir."
+}
