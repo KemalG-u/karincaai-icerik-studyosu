@@ -1,6 +1,6 @@
 # KarıncaAI İçerik Stüdyosu — çevrimdışı kod seçkisi
 
-**Dar sentetik testlerden geçti; yayınlanmadı.** Tam uygulama değildir. Yerel SQLite kaynak/taslak çekirdeği ve istem hazırlayıcıdır. Arayüz, sunucu, medya, otomatik URL okuma, model sağlayıcısı ve X'e yazma yoktur.
+**Kaynak seçkisi GitHub'da yayınlandı; dar sentetik testlerden geçti.** Tam uygulama değildir. Yerel SQLite kaynak/taslak çekirdeği ve istem hazırlayıcıdır. Arayüz, sunucu, medya, otomatik URL okuma, model sağlayıcısı ve X'e yazma yoktur.
 
 ## Özel veri ve proje sınırı
 
@@ -14,7 +14,7 @@ Yeni kaynak ve doğrulanmış/bağlı URL kontrolleri kullanıcı bilgisi, geçe
 
 Kaynak `D:/antigravity/HERMES Sosyal Medya/X projesi/studio`: `store.py`, `source_evidence.py`, `editorial.py`, `content_standard.py`, `content_standard.v1.json`, `editorial_policy.json`, `generator.py`. Yedi dosyanın tümü mevcut; satır karşılaştırmasında adayla benzerlik sırasıyla %99,8, %97,1, %95,5, %98,4, %95,1, %100 ve %97,4. Politika dosyasının SHA-256 değeri iki tarafta aynıdır (`a7ab82889f9330444377e050abfe5009d72b30d3082a85b104815ca5cfdbd39e`); diğer altısı değiştirilmiştir. Kaynak kökünde ve üstlerinde Git deposu bulunmadı: commit/yazar zinciri doğrulanamadı. Dosya başlıklarında üçüncü taraf telif/lisans bildirimi görülmedi; kod importları standart kitaplık ve yerel modüllerdir. Bu tarama özgünlüğü veya üçüncü taraf haklarının yokluğunu ispatlamaz.
 
-Kemal kendi projeleri için MIT açık kaynak izni verdi; doğrulanmış GitHub adı KemalG-u olarak bildirildi. Bu beyana dayanarak seçkiye `LICENSE` eklendi. Bildirilmeyen üçüncü taraf katkısı varsa bu izin onu kapsamaz; yayın öncesi ayrıca çözülmelidir. Git geçmişi bulunmadığından bağımsız hak zinciri kanıtı eksiktir; bu çalışma yayın yetkisi veya hukuki garanti değildir.
+Kemal kendi projeleri için MIT açık kaynak izni verdi; doğrulanmış GitHub adı KemalG-u olarak bildirildi. Bu beyana dayanarak seçkiye `LICENSE` eklendi. Bildirilmeyen üçüncü taraf katkısı varsa bu izin onu kapsamaz; hak durumu ayrıca çözülmelidir. Git geçmişi bulunmadığından bağımsız hak zinciri kanıtı eksiktir; kaynak seçkisinin yayınlanmış olması hak zincirini doğrulamaz ve bu çalışma hukuki garanti değildir.
 
 Standarttaki kökeni belirsiz iki örnek çıkarıldı; yerlerine bu görev için özgün sentetik iki örnek yazıldı, `provenance` ve `rights` alanları açıklandı. Bu yeni örneklerin MIT işareti kökteki gerçek `LICENSE` metnine bağlıdır. Standardın `1.0.0` kimliği yükleyici sözleşmesini korur; örnekler değişmiştir, özgün standardın birebir arşivi değildir.
 
