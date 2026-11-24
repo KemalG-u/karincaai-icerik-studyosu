@@ -1,0 +1,235 @@
+{
+  "standard_id": "karincaai-content-v1",
+  "version": "1.0.0",
+  "status": "active-calibration",
+  "owner": "Kemal",
+  "scope": "@KarincaAI için teknik olmayan çalışanlara gerçek AI ajanları ve iş otomasyonlarını anlatan Türkçe içerikler",
+  "audience": {
+    "primary": "Teknik olmayan Türkçe konuşan çalışan",
+    "starting_point": "AI araçlarını duyuyor veya kullanıyor; ajan, iş akışı, otomasyon ve kanıt ayrımını her zaman bilmiyor.",
+    "reader_need": "Bir kavramı ezberlemek değil, gerçek işinde neyi fark edeceğini, hangi küçük adımı atacağını ve nerede duracağını anlamak.",
+    "default_depth": "beginner"
+  },
+  "promise": "KarıncaAI, teknik olmayan çalışana 'ajan kur' demeden önce gerçek işin küçük ve denetlenebilir hâlini gösterir: hangi görev otomasyona uygun, hangisi insan onayı ister ve neyi gerçekten biliyoruz?",
+  "positioning": {
+    "niche": "Teknik olmayan çalışanlar için gerçek AI ajanları ve iş otomasyonları",
+    "brand_layer": "Karınca usulü: küçük, gerçek ve çalışan sistemler",
+    "not": [
+      "Genel AI haber hesabı",
+      "Araç reklamı veya ürün övgüsü",
+      "Kaynaktaki metni Türkçeye çevirip yeniden yayımlayan hesap",
+      "Her konuda uzman veya guru sesi",
+      "Sonuç garantisi, gelir vaadi veya etkileşim avcılığı"
+    ]
+  },
+  "content_outcomes": [
+    "Okur işindeki bir durumu veya riski fark eder.",
+    "Okur iki seçenek arasında koşula bağlı bir karar verir.",
+    "Okur küçük, geri alınabilir ve sınanabilir bir adım uygular.",
+    "Okur bir iddianın dayanağını ve sınırını ayırt eder."
+  ],
+  "voice": {
+    "traits": [
+      "Doğrudan ama buyurgan olmayan",
+      "Meraklı ama kolay etkilenmeyen",
+      "Sade ama içi boş olmayan",
+      "Somut ama gereksiz teknik ayrıntıya gömülmeyen",
+      "İddiasının sınırını saklamayan"
+    ],
+    "speaker": "Tek bir insan, çalışma arkadaşına anlatır gibi konuşur; kurumsal ekip, öğretmen veya guru rolü yapmaz.",
+    "first_person_rule": "Ben dili yalnız Kemal'in gerçek görüşü, kararı veya bağlı kanıtı olan deneyimi için kullanılır.",
+    "mandatory_slogan": false,
+    "slogan_rule": "Karınca usulü ifadesi imza katmanıdır; her içeriğe zorunlu açılış veya kapanış olarak eklenmez."
+  },
+  "language": {
+    "rules": [
+      "Gündelik Türkçe kullan; teknik terimi ilk geçtiği yerde yaptığı iş üzerinden açıkla.",
+      "Bir içerikte okurun anlaması için zorunlu olmayan jargonları çıkar.",
+      "Kısa ve uzun cümleleri doğal biçimde karıştır; yapay vurgu için cümle parçalama.",
+      "Başlığı merak uğruna abartma; metnin gerçek vaadini söyle.",
+      "Bir paragrafta tek ana düşünce taşı; okuru kaynak ve test ayrıntısına boğma.",
+      "Okura yukarıdan konuşma; bilmediğini varsayabilirsin ama yetersiz olduğunu ima etme."
+    ],
+    "term_rule": "Terim gerekliyse önce gündelik karşılığını, sonra terimi ver; bir içeriğe en fazla iki yeni terim yükle.",
+    "emoji_rule": "Dekoratif emoji ve emoji dizisi kullanma; anlam taşıyan tek emoji ancak içerik gerektiriyorsa kullanılabilir.",
+    "hashtag_rule": "Varsayılan olarak hashtag kullanma; dağıtım deneyi ayrıca kararlaştırılır."
+  },
+  "content_types": [
+    {
+      "key": "discovery",
+      "job": "Okurun bilmediği aracı veya durumu fark ettir.",
+      "must_include": "Ne işe yaradığı ve hangi durumda ilgili olduğu"
+    },
+    {
+      "key": "explainer",
+      "job": "Bir kavramı gerçek iş durumu üzerinden açıkla.",
+      "must_include": "Gündelik örnek ve yanlış anlaşılabilecek sınır"
+    },
+    {
+      "key": "method",
+      "job": "Küçük bir uygulama yolu ver.",
+      "must_include": "Önkoşul, adım ve sonucu nasıl kontrol edeceği"
+    },
+    {
+      "key": "comparison",
+      "job": "İki yaklaşım arasındaki seçimi koşula bağla.",
+      "must_include": "Hangi durumda hangisinin uygun olmadığı"
+    },
+    {
+      "key": "experiment",
+      "job": "Gerçek deneyi raporla.",
+      "must_include": "Kurulum, ölçüm, gözlenen sonuç ve sınırlama"
+    }
+  ],
+  "source_integrity": {
+    "principle": "Kaynak malzemedir; içerik değildir. Kaynak iddiası, doğrulanmış olgu, Kemal'in deneyimi ve editoryal öneri birbirine karıştırılmaz.",
+    "claim_classes": [
+      "Kaynağın söylediği",
+      "Bağımsız veya resmi dayanakla doğrulanan olgu",
+      "Bağlı yerel kanıtla gözlenen deney sonucu",
+      "KarıncaAI'ın açıkça öneri diye sunduğu özgün katkı"
+    ],
+    "rules": [
+      "Sayı, süre, maliyet, hız, başarı ve karşılaştırma iddiası dayanağı olmadan kesin yazılmaz.",
+      "Denedim, kurdum, kullandım veya sonuç aldım ifadesi bağlı yerel kanıt olmadan kullanılmaz.",
+      "Kaynağın çarpıcı iddiası doğrulanmadıysa ya çıkarılır ya da kime ait olduğu ve doğrulanmadığı açıkça söylenir.",
+      "URL bulunması doğruluk kanıtı değildir; içerik yalnız projeye taşınmış metin ve kaydedilmiş kanıt üzerinden hazırlanır.",
+      "Kaynakta olmayan bağlantı veya nedensellik uydurulmaz.",
+      "Kaynak ve sınır ana metni boğuyorsa ilk yanıtta verilir; gizlenmez."
+    ]
+  },
+  "originality": {
+    "principle": "İçerik, kaynağın özeti veya Türkçe çevirisi olarak kalmaz.",
+    "requirements": [
+      "Her içerik en az bir özgün katkı taşır: gerçek iş örneği, karar kuralı, uygulanabilir küçük adım, karşı örnek, sınır veya kanıtlı yerel gözlem.",
+      "Kaynakta söyleneni tekrarlamak yerine bunun teknik olmayan çalışanın işinde neyi değiştirdiğini açıklar.",
+      "Özgün katkı kaynak olgusuymuş gibi gösterilmez; öneri veya yorum olduğu anlaşılır."
+    ],
+    "commodity_test": "Aynı metin herhangi bir AI hesabı tarafından isimler değiştirilerek paylaşılabiliyorsa özgün katkı yetersizdir."
+  },
+  "composition": {
+    "default_unit": "Bir ana X gönderisi ve gerekirse bir kaynak/sınır yanıtı",
+    "main_max_weighted_characters": 280,
+    "reply_max_weighted_characters": 280,
+    "title_max_characters": 65,
+    "one_job_rule": "Her içerik tek bir okur işi, tek bir ana fikir ve tek bir baskın açı taşır.",
+    "opening": "Genel trend cümlesi veya yapay soru yerine somut iş durumu, gözlem, karşıtlık ya da doğrudan sonuçla başla.",
+    "body": "Örneği, mekanizmayı veya karar ölçütünü açıkla; gerekli sınırı saklama.",
+    "ending": "İçeriğin işini tamamladığı yerde dur. CTA yalnız doğal bir sonraki adım varsa kullanılır; yorum ve etkileşim dilenmez.",
+    "reply_use": "Kaynağı, iddia sınırını, kısa yöntemi veya ana gönderiye sığmayan gerekli ayrıntıyı taşır; yeni bir konu açmaz.",
+    "format_rule": "Konu tek gönderiyle anlaşılmıyorsa kısaltarak sakatlama; dizi, kart veya video önerisini insan incelemesine sun."
+  },
+  "review": {
+    "semantics": "Her boyut için ok=true ölçütün geçtiği anlamına gelir.",
+    "dimensions": [
+      {
+        "key": "usefulness",
+        "question": "Okur bu içerikten gerçek işinde kullanabileceği açık bir sonuç çıkarıyor mu?",
+        "pass": "En az bir fark etme, karar, küçük adım veya sınır sonucu açıktır.",
+        "hard_gate": true
+      },
+      {
+        "key": "evidence",
+        "question": "İddialar kaynak, deney, yorum ve öneri kökenine uygun mu?",
+        "pass": "Kesin iddialar bağlı dayanağı aşmaz; deney ve performans uydurulmaz.",
+        "hard_gate": true
+      },
+      {
+        "key": "concreteness",
+        "question": "Metin soyut övgü yerine somut iş durumu, koşul, adım veya örnek taşıyor mu?",
+        "pass": "Okur en az bir somut durum veya uygulama ölçütü görür.",
+        "hard_gate": false
+      },
+      {
+        "key": "accessibility",
+        "question": "Teknik olmayan okur metni ek araştırma yapmadan ana hatlarıyla anlayabilir mi?",
+        "pass": "Jargon açıklanır, gereksiz ayrıntı çıkarılır ve bilgi yükü hedef derinliğe uyar.",
+        "hard_gate": true
+      },
+      {
+        "key": "originality",
+        "question": "Metin kaynak özeti veya çevirisinin ötesinde KarıncaAI'a ait gerçek bir değer ekliyor mu?",
+        "pass": "En az bir iş örneği, karar kuralı, küçük adım, karşı örnek, sınır veya kanıtlı gözlem vardır.",
+        "hard_gate": true
+      },
+      {
+        "key": "natural_voice",
+        "question": "Metin tek bir insanın doğal Türkçesi gibi mi?",
+        "pass": "Kurumsal, guru, reklam ve yapay zekâ kalıp dili yoktur; ritim mekanik değildir.",
+        "hard_gate": false
+      },
+      {
+        "key": "focus",
+        "question": "İçerik tek bir okur işi ve ana fikir etrafında mı?",
+        "pass": "Yan talepler, gereksiz listeler ve ikinci konu çıkarılmıştır.",
+        "hard_gate": false
+      },
+      {
+        "key": "boundaries",
+        "question": "İçeriğin geçerli olmadığı koşul veya önemli sınır gerektiği kadar açık mı?",
+        "pass": "Sınır saklanmaz ama her içeriğe mekanik uyarı paragrafı da eklenmez.",
+        "hard_gate": true
+      }
+    ],
+    "ready_rule": "Sekiz boyutun tamamı geçmeden taslak yalnız revizyon adayıdır; model sonucu insan onayı değildir.",
+    "hard_failures": [
+      "Dayanaksız kesin olgu, sayı, performans veya karşılaştırma iddiası",
+      "Uydurulmuş deney, kullanım, test, alıntı veya kaynak",
+      "Kaynak metnin esasen çevirisi ya da yakın kopyası",
+      "Başlık ile içeriğin vaadi arasında yanıltıcı fark",
+      "Teknik olmayan okurun anlayacağı bir sonuç bırakmayan jargon yığını",
+      "Kaynak, yorum, özgün öneri ve deney kökenini birbirine karıştırma",
+      "Gelir, hız, başarı veya takipçi garantisi",
+      "Gizli reklam, telif veya hak sahipliği yanıltması"
+    ]
+  },
+  "anti_patterns": [
+    "Yapay zekâ dünyası hızla değişiyor türü genel açılışlar",
+    "Gelecek burada, devrim, oyun değiştirici ve çağ atlatan gibi abartılar",
+    "Şimdi gelin birlikte inceleyelim veya işte bilmeniz gerekenler gibi sunucu cümleleri",
+    "Soruyu sorup bir sonraki cümlede kendisi cevaplayan yapay kanca",
+    "Zorunlu üçlü liste ve her gönderide aynı şablon",
+    "Kaynağın özelliklerini art arda sayan ürün broşürü",
+    "Kime ait olduğu belirsiz uzmanlar diyor veya araştırmalar gösteriyor ifadeleri",
+    "Gerçek kişi sesi olmayan kurumsal biz dili",
+    "Her paragrafı slogan veya kısa vurucu cümleyle bitirme",
+    "Dekoratif emoji, hashtag ve gereksiz ünlem dizisi",
+    "Etkileşim için yorumlara yaz, arkadaşını etiketle veya kaçırma baskısı",
+    "Her içeriğe aynı güvenlik uyarısını ya da aynı Karınca usulü kapanışını ekleme"
+  ],
+  "calibration_examples": [
+    {
+      "verdict": "near_target",
+      "text": "Toplantı notlarını paylaşmadan önce isimleri çıkar. Sonra boş bir örnek üzerinde özetin ana kararları koruyup korumadığını kontrol et.",
+      "reasons": [
+        "Somut ve sınanabilir bir iş adımı önerir.",
+        "Gerçek ölçüm veya sonuç iddiası taşımaz."
+      ],
+      "provenance": "sentetik-bu-secki-icin-yazildi",
+      "rights": "MIT"
+    },
+    {
+      "verdict": "needs_reframe",
+      "text": "İş akışına asenkron olay kuyruğu ve idempotent işleyici ekleyerek tutarlılığı sağla.",
+      "reasons": [
+        "Teknik olmayan okur için terimleri açıklamaz.",
+        "İş örneği ve koşul eksiktir."
+      ],
+      "provenance": "sentetik-bu-secki-icin-yazildi",
+      "rights": "MIT"
+    }
+  ],
+  "learning": {
+    "calibration_set_size": 10,
+    "automatic_global_rule_creation": false,
+    "candidate_rule": "Her kullanıcı düzeltmesi öğrenme adayı olabilir; tek olay otomatik kural değildir.",
+    "promotion_rule": "Kural ancak Kemal açıkça onaylarsa veya aynı tercih en az üç bağımsız içerikte tutarlı biçimde doğrulanıp yine insan onayı alırsa standarda eklenir.",
+    "versioning_rule": "Kabul edilen değişiklik yeni standart sürümüne, gerekçesine ve etkilenen örneklere bağlanır; eski sürüm silinmez."
+  },
+  "operation": {
+    "content_quota": null,
+    "publishing_quota": null,
+    "publication": "Yalnız Kemal'in manuel eylemi",
+    "agent_authority": "Taslak, eleştiri ve öğrenme adayı önerir; içerik onaylayamaz ve X'e yazamaz."
+  }
+}
