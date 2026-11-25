@@ -8,6 +8,8 @@ An offline, standard-library-only Python core for a content-writing workflow ("C
 
 It exists to keep the boring, easy-to-get-wrong parts of AI-assisted writing explicit and testable: which sources belong to which project, which draft revision was reviewed, and what an AI prompt is allowed to contain.
 
+How this differs from [content-package-studio](https://github.com/KemalG-u/content-package-studio): that repository is the local web app (review UI, hash-verified ZIP packages, optional media generation); this one is only the offline Python core behind such a workflow, with no UI, packaging or model calls.
+
 ## How it works
 
 - `studio/store.py` — `StudioStore`: sources (manual or imported), drafts tied to one primary source and optional project sources, revision numbers (an update on a stale revision raises `RevisionConflict`), history and restore, copy approval, jobs and proposals.

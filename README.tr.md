@@ -8,6 +8,8 @@
 
 Yapay zekâ destekli yazımın kolay yanlış yapılan kısımlarını açık ve sınanabilir tutmak için vardır: hangi kaynak hangi projeye ait, hangi taslak revizyonu incelendi ve bir istem neyi içerebilir.
 
+[content-package-studio](https://github.com/KemalG-u/content-package-studio) deposundan farkı: o depo gözden geçirme arayüzü, özet doğrulamalı ZIP paketleri ve isteğe bağlı medya üretimi olan yerel web uygulamasıdır; bu depo ise böyle bir akışın arkasındaki çevrimdışı Python çekirdeğidir, arayüz, paketleme ya da model çağrısı yoktur.
+
 ## Nasıl çalışır
 
 - `studio/store.py` — `StudioStore`: kaynaklar (elle veya içe aktarılmış), tek ana kaynağa ve isteğe bağlı proje kaynaklarına bağlı taslaklar, revizyon numaraları (eski revizyonda güncelleme `RevisionConflict` verir), geçmiş ve geri yükleme, metin onayı, işler ve öneriler.
